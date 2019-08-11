@@ -51,6 +51,15 @@ img{
     margin: 0 0 0 0;
 }
 
+@font-face {
+    font-family: 'keep_calm_medregular';
+    src: url('../fonts/keepcalm-medium-webfont.woff2') format('woff2'),
+         url('../fonts/keepcalm-medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
 
 
 /*Homepagina en begin van de site*/
