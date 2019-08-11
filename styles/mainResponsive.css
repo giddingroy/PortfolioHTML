@@ -54,7 +54,7 @@ body{
 /*Media Categorieën*/
 .mediaCategorieContainer{
     width: 100%;
-    margin-bottom: 10vw;
+    margin-top: 30vw;
 }
 .posterImgTextVideo h1{
     font-size: 9vw;
@@ -135,15 +135,23 @@ width: 95%;
     margin: 0vw 6.7vw 1.5vw 6.7vw;
 }
 
+#aboutContainer{
+        margin-left: -7vw;
+}
 #aboutTekstDiv{
     width: 55%;
+}
+
+#contactGegevens a{
+
+    font-size: 2vw;
 }
 
 
 
 @media screen and (max-width: 600px){
 p{
-    font-size: 4vw;
+    font-size: 3.5vw;
 }   
 h1{
     font-size: 6vw;
@@ -212,15 +220,13 @@ font-size: 1.5vw;
 }
 
 #myWorkMy{
-        margin-top: 51.5vw; 
+        margin-top: 52.3vw; 
     }
 #myWorkWork{
-        margin-top: 54.9vw;
+        margin-top: 55.8vw;
     }
 
-#aboutContainer{
-        margin-left: -6vw;
-}
+
 .categorieTekstDiv a{
 font-size: 2vw;
 }
