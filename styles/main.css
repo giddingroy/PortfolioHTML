@@ -14,11 +14,10 @@ margin: 0;
 }
 @font-face {
     font-family: 'Paloseco';
-    src: url('../fonts/paloseco-medium-webfont.woff2') format('woff2'),
-         url('../fonts/paloseco-medium-webfont.woff') format('woff');
+    src: url('../fonts/paloseco-light-webfont.woff2') format('woff2'),
+         url('../fonts/paloseco-light-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
-
 }
 @font-face {
     font-family: 'Droid Serif';
