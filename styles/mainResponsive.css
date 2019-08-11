@@ -1,0 +1,233 @@
+p{
+    font-size: 1.5vw;
+}
+h1{
+    letter-spacing: 4px;
+}
+body{
+    background-color: red;
+}
+
+#nav li{
+    margin: 2vw 0vw 5.6vw 0vw;
+}
+#navSelectorHome{
+    margin-top: -5.5vw;
+}
+#navSelectorAnimation{
+    margin-top: -5.5vw;
+}
+#navSelectorPhotography{
+    margin-top: -5.5vw;
+}
+
+.homeVerticalDivider{
+        height: 45vw;
+}
+.backgroundHeader{
+    margin-top: 10%;
+    margin-left: 31%;
+}
+.backgroundHeaderVideo{
+    margin-top: 23%;
+    margin-left: 40%;
+}
+.backgroundHeaderAnimation{
+    margin-top: 23%;
+    margin-left: 28%;
+}
+.backgroundHeaderPhotography{
+    margin-top: 23%;
+    margin-left: 20%;
+}
+
+/*.socialNavIconSmall{
+        z-index:300000;
+        position: absolute;
+        float: left;
+        display: block;
+        width: 4%;
+        margin-left: 91vw;
+        margin-top: 49vw;
+    }
+*/
+.arrow{
+    margin-top: 47%;
+}
+#myWorkMy{
+        margin-top: 52vw; 
+    }
+#myWorkWork{
+        margin-top: 55.4vw;
+    }
+
+
+/*Media Categorieën*/
+.mediaCategorieContainer{
+    width: 100%;
+    margin-bottom: 10vw;
+}
+.posterImgTextVideo h1{
+    font-size: 9vw;
+    position: absolute;
+    margin-left: 32.5%;
+    margin-top: 22%;
+
+}
+.posterImgTextPhoto h1{
+    font-size: 9vw;
+    position: absolute;
+    margin-left: 7%;
+    margin-top: 22%;
+
+}
+.posterImgTextAnimation h1{
+    font-size: 9vw;
+    position: absolute;
+    margin-left: 19%;
+    margin-top: 22%;
+}
+
+.embed-containerLeft{
+margin-top: 1vw;
+width: 95%;
+}
+.embed-containerRight{
+margin-top: 1vw;
+width: 95%;
+}
+
+.gifLinks{
+    width: 95%;
+    margin-left: 2.5vw;
+}
+.gifRechts{
+    width: 95%;
+    margin-right: 2.5vw;
+}
+.fotoLinksPortret{
+    float: left;
+    margin-left: 3vw;
+}
+.categorieTekstDiv{
+    width: 85%;
+    margin-left: 7vw;
+}
+.categorieTekstHeader{
+    font-size: 2.5vw;
+}
+.categorieTekstDivider{
+    height: 0.2vw;
+}
+
+.brand{
+    border: solid 0.5vw #E27A4D;
+}
+
+.sectieDivider{
+    margin: 20vw auto 20vw auto;
+    width: 60%;
+    height: 0.2vw;
+}
+.sectieDivider2{
+    margin: 2vw auto 0vw auto;
+    width: 67%;
+    height: 0.2vw;
+}
+
+.categorieTekstDiv a{
+    font-size: 1.5vw;
+}
+
+.footerInfo{
+    font-size: 1.5vw;
+    color: #28324C;
+    font-weight: bold;
+    margin: 0vw 6.7vw 1.5vw 6.7vw;
+}
+
+
+
+@media screen and (max-width: 600px){
+p{
+    font-size: 2vw;
+}   
+h1{
+    font-size: 6vw;
+    letter-spacing: 3px;
+}
+h2{
+        font-size: 1.4vw
+    }
+body{
+    background-color: purple;
+}
+
+#contactButton{
+margin: 4% 0% 0% 4%;
+width: 16.5%;
+border: solid 0.3vw white;
+transition: 0.5s;
+}
+#contactButton h2{
+font-size: 1.5vw;
+      line-height: 230%;  
+}
+
+.backgroundHeader{
+    margin-top: 11%;
+    margin-left: 31%;
+
+}
+.backgroundHeaderVideo{
+    margin-top: 25%;
+    margin-left: 39%
+}
+.backgroundHeaderAnimation{
+    margin-top: 25%;
+    margin-left: 26%;
+}
+.backgroundHeaderPhotography{
+    margin-top: 25%;
+    margin-left: 17%;
+}
+
+.homeVerticalDivider{
+    width: 0.2vw;
+    height: 49vw;
+    margin-left: 82%;
+    margin-top: 2vw;
+}
+#nav{
+    margin-top: 2vw;
+    margin-left: 81vw
+}
+#navSelectorHome{
+    margin-left: -5vw;
+    margin-top: -5.5vw;
+}
+#navSelectorAnimation{
+    margin-left: -10vw;
+    margin-top: -5.5vw;
+}
+#navSelectorPhotography{
+    margin-left: -12.5vw;
+    margin-top: -5.5vw;
+}
+
+.arrow{
+    display: none;
+}
+#myWorkMy{
+    margin-top: 50.8vw; 
+}
+#myWorkWork{
+    margin-top: 54.8vw;
+}
+
+    
+.categorieTekstDiv a{
+font-size: 2vw;
+}
+
+}

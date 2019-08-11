@@ -1,0 +1,535 @@
+/*----------Text Color Styles----------*/
+html, body, h1, h2, h3, p, ol, ul, li, a {
+padding: 0;
+border: 0;
+margin: 0;
+}
+
+/*Grote header tekst*/
+h1{
+    font-family: "Keep Calm Regular", "Bebas Neue", "Arial", sans-serif;
+    letter-spacing: 10px;
+    color: white;
+    font-size: 6vw;
+}
+/*Hyperlink en navigatie tekst*/
+h2{
+    font-family: "Paloseco", "Keep Calm Medium", "Bebas Neue", "Arial", sans-serif;
+    letter-spacing: 0.2vw;
+    color: white;
+    font-size: 1.2vw;
+}
+/*Kleinere header tekst*/
+h3{
+    font-family: "Paloseco", "Keep Calm Regular", "Bebas Neue", "Arial", sans-serif;
+    font-size: 3vw;
+    letter-spacing: 1px;
+}
+h4{
+        margin-top: 4vw;
+    margin-bottom: 1vw;
+    font-family: "Keep Calm Regular", "Bebas Neue", "Arial", sans-serif;
+    font-size: 1vw;
+    font-weight: bold;
+    color: #28324C;
+    text-align: center;
+    line-height: 4vw;
+}
+p{
+    font-size: 1vw;
+    font-family: "Droid Serif", "Garamond", "Times New Roman", serif;
+    color: #566984;
+}
+a{
+    color: rgba(0, 0, 0, 0);
+    text-decoration: none;
+
+}
+img{
+    max-width: 100%;
+    height: auto;
+    margin: 0 0 0 0;
+}
+
+
+
+/*Homepagina en begin van de site*/
+body{
+    /*Grote Video achtergrond, dit wordt een foto op mobiel
+    background-image: url(../img/homeAchtergrond.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: top;*/
+}
+
+#Home{
+    position: relative;
+    height: 55vw;
+}
+
+#videoBackground{
+    position: absolute;
+    max-width: 100%;
+    pointer-events: none;
+}
+
+/*Hire Me Button*/
+#contactButton{
+    z-index:300000;
+    position: absolute;
+    float: left;
+    
+    margin: 3% 0% 0% 3%;
+    width: 9.5%;
+    border: solid 0.2vw;
+    border-color: white;
+    transition: border 0.5s ease;
+}
+#contactButton:hover{
+    border: solid 0.2vw rgba(0, 0, 0, 0);
+}
+#contactButton h2{
+    line-height: 190%;
+    text-align: center;
+}
+
+/* De grote tekst op de header*/
+.backgroundHeader{
+    z-index:300000;
+    position: absolute;
+    float: left;
+    text-align: right;
+    margin-top: 9%;
+    margin-left: 30%;
+}
+.backgroundHeaderVideo{
+    z-index:300000;
+    position: absolute;
+    float: left;
+    text-align: right;
+    margin-top: 20%;
+    margin-left: 38%;
+}
+.backgroundHeaderAnimation{
+    z-index:300000;
+    position: absolute;
+    float: left;
+    text-align: right;
+    margin-top: 20%;
+    margin-left: 27%;
+}
+.backgroundHeaderPhotography{
+    z-index:300000;
+    position: absolute;
+    float: left;
+    text-align: right;
+    margin-top: 20%;
+    margin-left: 19%;
+}
+
+/*Divider tussen de header en de navigatie*/
+.homeVerticalDivider{
+    z-index:300000;
+    position: absolute;
+    float: left;
+    
+    margin-left: 84%;
+    margin-top: 4%;
+    width: 0.1vw;
+    height: 39vw;
+    background-color: white;
+}
+/*Navigate Balk*/
+#navSelectorHome{
+    z-index:300000;
+    position: absolute;
+    
+    width: 38%;
+    margin-left: -4.5vw;
+    margin-top: -3.5vw;
+}
+#navSelectorAnimation{
+    z-index:300000;
+    position: absolute;
+    
+    width: 76%;
+    margin-left: -8.9vw;
+    margin-top: -3.5vw;
+}
+#navSelectorPhotography{
+    z-index:300000;
+    position: absolute;
+    
+    width: 98%;
+    margin-left: -11.3vw;
+    margin-top: -3.5vw;
+}
+
+#nav {
+    z-index:300000;
+    position: absolute;
+    
+    box-sizing: border-box;
+    text-align: right;
+    margin-left: 87%;
+    margin-top: 4%;
+}
+#nav li{
+    display: block;
+    margin: 2vw 0vw 3.6vw 0vw;
+}
+#nav li h2:hover{
+    color: #E27A4D;
+}
+
+.navInstaLogo{
+    z-index: 30000;
+    position: absolute;
+    
+    background-image: url("../img/instaLogoW.png");
+    background-size: 2vw 2vw;
+    width: 2vw;
+    height: 2vw;
+    margin-left: -2.2vw;
+    transition: background-image 1s;
+}
+.navInstaLogo:hover{
+    background-image: url("../img/instaLogoO.png");
+}
+.navLinkedLogo{
+    z-index: 30000;
+    position: absolute;
+    
+    background-image: url("../img/linkedLogoW.png");
+    background-size: 2vw 2vw;
+    width: 2vw;
+    height: 2vw;
+    margin-left: -2.2vw;
+    margin-top: 5.6vw;
+    transition: background-image 1s;
+}
+.navLinkedLogo:hover{
+        background-image: url("../img/linkedLogoO.png");
+}
+.socialNavIconSmall{
+    display: none;
+}
+
+.arrow{
+    z-index: 30000;
+    position: absolute;
+    width: 2.5vw;
+    height: 5vw;
+    
+    margin-left: 7.2%;
+    margin-top: 41%;
+    background-image: url("../img/arrow.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.move {
+  animation: move 3s 2.5s infinite;
+}
+@keyframes move {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  70% {
+    transform: translateY(-100%);
+  }
+}
+
+#myWorkMy{
+    z-index:300000;
+    position: absolute;
+    float: left;
+    
+    margin-top: 52.5vw;
+    margin-left: 12vw;
+    color: white;
+}
+#myWorkWork{
+    z-index:300000;
+    position: absolute;
+    float: left;
+    
+    margin-top: 56vw;
+    margin-left: 12vw;
+    color: #566984;
+}
+
+
+
+/*Categorie Sectie*/
+.mediaCategorieContainer{
+    margin-top: 13vw;
+    margin-bottom: 8vw;
+    float: left;
+}
+.posterImgTextVideo h1{
+    position: absolute;
+    margin-left: 23.5%;
+    margin-top: 15%;
+
+}
+.posterImgTextVideo h1:hover{
+    transition: 0.5s ease;
+    color: rgba(255, 255, 255, 0.5);
+}
+.posterImgTextPhoto h1{
+    position: absolute;
+    margin-left: 6%;
+    margin-top: 15%;
+
+}
+.posterImgTextPhoto h1:hover{
+    transition: 0.5s ease;
+    color: rgba(255, 255, 255, 0.5);
+}
+.posterImgTextAnimation h1{
+    position: absolute;
+    margin-left: 43%;
+    margin-top: 15%;
+
+}
+.posterImgTextAnimation h1:hover{
+    transition: 0.5s ease;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.embed-containerLeft{
+position: relative; 
+padding-bottom: 56.25%; 
+height: 0; 
+overflow: hidden; 
+width: 65%; 
+float: left; 
+margin-left: 3vw; 
+margin-top: -9vw;
+} 
+.embed-containerLeft iframe, .embed-containerLeft object, .embed-containerLeft embed { 
+position: absolute; 
+top: 0; 
+left: 0; 
+width: 100%; 
+height: 100%; 
+}
+
+.embed-containerRight{
+position: relative; 
+padding-bottom: 56.25%; 
+height: 0; 
+overflow: hidden; 
+width: 65%; 
+float: right; 
+margin-right: 3vw; 
+margin-top: -9vw;
+} 
+.embed-containerRight iframe, .embed-containerRight object, .embed-containerRight embed { 
+position: absolute; 
+top: 0; 
+left: 0; 
+width: 100%; 
+height: 100%; 
+}
+
+.gifLinks{
+    float: left;
+    margin-left: 3vw;
+    width: 65%;
+}
+.gifLinks:hover{
+    transition: 1s ease;
+    opacity: 0.5;
+}
+.gifRechts{
+    float: right;
+    margin-right: 3vw;
+    width: 65%;
+}
+.gifRechts:hover{
+    transition: 1s ease;
+    opacity: 0.5;
+}
+
+.categorieTekstDiv{
+    float: left;
+    margin-left: 3vw;
+    width: 25%;
+}
+.categorieTekstDiv a{
+    font-family: "Keep Calm Regular", "Bebas Neue", "Arial", sans-serif;
+    font-size: 1vw;
+    font-weight: bold;
+    color: #28324C;
+}
+.categorieTekstHeader{
+    font-family: "Paloseco", "Keep Calm Regular", "Bebas Neue", "Arial", sans-serif;
+    font-size: 1.5vw;
+    color: #28324C;
+    margin-top: 2vw;
+    margin-bottom: 0.5vw;
+}
+.categorieTekstDivider{
+    height: 0.1vw;
+    background-color: #E27A4D;
+    margin-bottom: 1.5vw;
+}
+
+
+
+.sectieDivider{
+    margin: 14vw auto 14vw auto;
+    width: 40%;
+    height: 0.1vw;
+    background-color: #E27A4D;
+}
+.sectieDivider2{
+    margin: 2vw auto 0.5vw auto;
+    width: 66%;
+    height: 0.1vw;
+    background-color: #E27A4D;
+}
+
+
+
+/*About Sectie*/
+#About{
+    position: absolute;
+    margin-left: 50vw;
+    margin-top: -10vw;
+}
+#aboutContainer{
+    float: left;
+    position: relative;
+}
+#thatsMe{
+    position: absolute;
+    color: #E27A4D;
+    text-align: left;
+    margin-left: 14vw;
+    margin-top: 3vw
+}
+.pfImage{
+    float:left;
+    margin-left: 19vw;
+}
+#aboutTekstDiv{
+    float: left;
+    margin-left: 3vw;
+    width: 40%;
+}
+
+/*Oranje knoppen*/
+.hireMeButtonOj{
+    float: left;
+    margin: 10% 0% 0% 0%;
+    width: 30%;
+    border: solid 0.2vw #E27A4D;
+    transition: 0.5s;
+}
+.hireMeButtonOj:hover{
+    border: solid 0.2vw white;
+}
+.hireMeButtonOj h2{
+    line-height: 190%;
+    text-align: center;
+    color: #E27A4D;
+}
+#or{
+    float: left;
+    margin: 11.6% 2vw 0vw 2vw;
+}
+#or h2{
+    color: #E27A4D; 
+}
+
+
+
+/*Brands Sectie*/
+#brandContainer{
+    width: 100%;
+    float: left;
+}
+#brandsWorkedWith{
+    margin-left: 14vw;
+    margin-top: 17vw;
+    margin-bottom: -2vw;
+    text-align: left;
+    color: #E27A4D;
+}
+.brandsRow{
+    text-align: center;
+}
+.brand{
+    width: 8vw;
+    height: 8vw;
+    margin: 6vw 3vw 0vw 3vw;
+    display: inline-block;
+    transition: 1s;
+    border: solid 0.2vw #E27A4D;
+}
+.brand:hover{
+    border: solid 0.2vw rgba(0, 0, 0, 0);
+}
+
+
+
+#contactContainer{
+    width: 100%;
+    float: left;
+    text-align: center;
+}
+#contactTekst{
+    color: #E27A4D;
+}
+#contactGegevens{
+    margin-top: 4vw;
+    margin-bottom: 1vw;
+    font-family: "Keep Calm Regular", "Bebas Neue", "Arial", sans-serif;
+    font-size: 1vw;
+    font-weight: bold;
+    color: #28324C;
+    text-align: center;
+    line-height: 4vw;
+}
+#contactGegevens a{
+    margin-top: 4vw;
+    margin-bottom: 1vw;
+    font-family: "Keep Calm Regular", "Bebas Neue", "Arial", sans-serif;
+    font-size: 1vw;
+    font-weight: bold;
+    color: #28324C;
+    text-align: center;
+    line-height: 4vw;
+}
+.socialLogo{
+    margin: 0.3vw;
+}
+#footer{
+    text-align: center;
+}
+.footerInfo{
+    display: inline-block;
+    font-family: "Droid Serif", "Garamond", "Times New Roman", serif;
+    font-size: 1vw;
+    color: #28324C;
+    font-weight: bold;
+    margin: 0vw 10vw 1.0vw 10vw;
+}
+
+.goToTopButton{
+    display: inline-block;
+    margin: 12vw 0vw 0vw 0vw;
+    width: 15%;
+    border: solid 0.2vw #E27A4D;
+    transition: 0.5s;
+}
+.goToTopButton:hover{
+    border: solid 0.2vw white;
+}
+.goToTopButton h2{
+    line-height: 190%;
+    text-align: center;
+    color: #E27A4D;
+}
