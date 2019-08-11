@@ -218,6 +218,9 @@ font-size: 1.5vw;
         margin-top: 54.9vw;
     }
 
+#aboutContainer{
+        margin-left: -6vw;
+}
 .categorieTekstDiv a{
 font-size: 2vw;
 }
