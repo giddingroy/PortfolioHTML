@@ -40,16 +40,6 @@ body{
     margin-left: 20%;
 }
 
-/*.socialNavIconSmall{
-        z-index:300000;
-        position: absolute;
-        float: left;
-        display: block;
-        width: 4%;
-        margin-left: 91vw;
-        margin-top: 49vw;
-    }
-*/
 .arrow{
     margin-top: 47%;
 }
@@ -143,6 +133,10 @@ width: 95%;
     color: #28324C;
     font-weight: bold;
     margin: 0vw 6.7vw 1.5vw 6.7vw;
+}
+
+#aboutTekstDiv{
+    width: 55%;
 }
 
 
