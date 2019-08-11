@@ -519,9 +519,9 @@ height: 100%;
 #contactGegevens a{
     color: #28324C;
 }
-.socialLogo a{
+.socialLogo img{
     margin: 0.5vw;
-    width: 50%;
+    width: 2%;
 }
 #footer{
     text-align: center;
