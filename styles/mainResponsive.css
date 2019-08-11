@@ -4,8 +4,6 @@ p{
 h1{
     letter-spacing: 4px;
 }
-body{
-}
 
 #nav li{
     margin: 2vw 0vw 5.6vw 0vw;
@@ -145,9 +143,12 @@ width: 95%;
 #contactTekst{
     margin-bottom: 20vw;
 }
-#contactGegevens a{
-
-    font-size: 2vw;
+#contactTekst h3{
+    font-size: 6vw;
+}
+#contactGegevens{
+    font-size: 3vw;
+    line-height: 14vw;
 }
 .goToTopButton{
     margin-top: 20vw;
@@ -166,8 +167,6 @@ h1{
 h2{
         font-size: 2vw;
     }
-body{
-}
 
 #contactButton{
 margin: 4% 0% 0% 4%;
@@ -226,12 +225,19 @@ font-size: 1.5vw;
 }
 
 #myWorkMy{
-        margin-top: 52.3vw; 
+        margin-top: 52.7vw; 
     }
 #myWorkWork{
-        margin-top: 55.8vw;
+        margin-top: 56.1vw;
     }
 
+.goToTopButton{
+    display: inline-block;
+    margin: 20vw 0vw 0vw 0vw;
+    width: 25%;
+    border: solid 0.2vw #E27A4D;
+    transition: 0.5s;
+}
 
 .categorieTekstDiv a{
 font-size: 2vw;
