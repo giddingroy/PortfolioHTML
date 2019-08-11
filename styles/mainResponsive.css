@@ -55,10 +55,10 @@ body{
     margin-top: 47%;
 }
 #myWorkMy{
-        margin-top: 55vw; 
+        margin-top: 51.3vw; 
     }
 #myWorkWork{
-        margin-top: 58.4vw;
+        margin-top: 54.7vw;
     }
 
 
@@ -219,11 +219,13 @@ font-size: 1.5vw;
     display: none;
 }
 #myWorkMy{
-    margin-top: 50.8vw; 
-}
+        margin-top: 55vw; 
+    }
 #myWorkWork{
-    margin-top: 54.8vw;
-}
+        margin-top: 58.4vw;
+    }
+
+
 
     
 .categorieTekstDiv a{
