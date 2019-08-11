@@ -231,6 +231,10 @@ font-size: 1.5vw;
         margin-top: 56.1vw;
     }
 
+.socialLogo img{
+    width: 8%; 
+    margin: 5vw 1vw 0vw 1vw;
+}
 .goToTopButton{
     display: inline-block;
     margin: 20vw 0vw 0vw 0vw;
