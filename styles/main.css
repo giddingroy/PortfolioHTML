@@ -517,17 +517,11 @@ height: 100%;
     line-height: 4vw;
 }
 #contactGegevens a{
-    margin-top: 4vw;
-    margin-bottom: 1vw;
-    font-family: "Keep Calm Regular", "Bebas Neue", "Arial", sans-serif;
-    font-size: 1vw;
-    font-weight: bold;
     color: #28324C;
-    text-align: center;
-    line-height: 4vw;
 }
-.socialLogo{
-    margin: 0.3vw;
+.socialLogo a{
+    margin: 0.5vw;
+    width: 50%;
 }
 #footer{
     text-align: center;
