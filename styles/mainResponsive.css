@@ -142,9 +142,15 @@ width: 95%;
     width: 55%;
 }
 
+#contactTekst{
+    margin-bottom: 20vw;
+}
 #contactGegevens a{
 
     font-size: 2vw;
+}
+.goToTopButton{
+    margin-top: 20vw;
 }
 
 
