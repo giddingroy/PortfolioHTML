@@ -102,6 +102,7 @@ width: 95%;
 }
 .categorieTekstHeader{
     font-size: 3.5vw;
+    font-family: "Keep Calm Regular";
 }
 .categorieTekstDivider{
     height: 0.2vw;
@@ -112,8 +113,8 @@ width: 95%;
 }
 
 .sectieDivider{
-    margin: 20vw auto 20vw auto;
-    width: 60%;
+    margin: 30vw auto 30vw auto;
+    width: 70%;
     height: 0.2vw;
 }
 .sectieDivider2{
@@ -230,10 +231,14 @@ font-size: 1.5vw;
 #myWorkWork{
         margin-top: 56.1vw;
     }
+    
+.hireMeButtonOj{
+    width: 35%;
+}
 
 .socialLogo img{
-    width: 8%; 
-    margin: 5vw 1vw 0vw 1vw;
+    width: 6%; 
+    margin: 5vw 1.2vw 0vw 1.2vw;
 }
 .goToTopButton{
     display: inline-block;
