@@ -138,6 +138,12 @@ width: 95%;
     width: 67%;
     height: 0.2vw;
 }
+.sectieDivider3{
+    margin: 14vw auto 25vw auto;
+    margin-left: 15%;
+    margin-right: 15%;
+    width: 70%;
+}
 
 
 #aboutContainer{
