@@ -158,6 +158,11 @@ width: 95%;
     line-height: 14vw;
 }
 
+.socialLogo img{
+    width: 6%; 
+    margin: 5vw 1.2vw 0vw 1.2vw;
+}
+
 .footerInfo{
     font-size: 1.5vw;
     color: #28324C;
@@ -242,10 +247,7 @@ font-size: 1.5vw;
     width: 35%;
 }
 
-.socialLogo img{
-    width: 6%; 
-    margin: 5vw 1.2vw 0vw 1.2vw;
-}
+
 .goToTopButton{
     display: inline-block;
     margin: 20vw 0vw 0vw 0vw;
