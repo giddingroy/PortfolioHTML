@@ -5,6 +5,13 @@ h1{
     letter-spacing: 4px;
 }
 
+#contactButton{
+    width: 20vw;
+}
+#contactButton a h2{
+    font-size: 2.5vw;
+    letter-spacing: 3px;
+}
 #nav li{
     margin: 2vw 0vw 8vw 0vw;
 }
@@ -177,7 +184,7 @@ h2{
 
 #contactButton{
 margin: 4% 0% 0% 4%;
-width: 16.5%;
+width: 20vw;
 border: solid 0.3vw white;
 transition: 0.5s;
 }
