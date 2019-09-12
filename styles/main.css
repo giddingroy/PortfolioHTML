@@ -150,6 +150,14 @@ body{
     margin-top: 20%;
     margin-left: 19%;
 }
+.backgroundHeaderPhotographySerieBlus{
+    z-index:300000;
+    position: absolute;
+    float: left;
+    text-align: right;
+    margin-top: 20%;
+    margin-left: 40%;
+}
 
 /*Divider tussen de header en de navigatie*/
 .homeVerticalDivider{
@@ -287,7 +295,7 @@ body{
 /*Categorie Sectie*/
 .mediaCategorieContainer{
     margin-top: 13vw;
-    margin-bottom: 8vw;
+    margin-bottom: 16vw;
     float: left;
 }
 .posterImgTextVideo h1{
@@ -330,6 +338,7 @@ width: 65%;
 float: left; 
 margin-left: 3vw; 
 margin-top: -9vw;
+margin-bottom: -9vw;
 } 
 .embed-containerLeft iframe, .embed-containerLeft object, .embed-containerLeft embed { 
 position: absolute; 
@@ -348,6 +357,7 @@ width: 65%;
 float: right; 
 margin-right: 3vw; 
 margin-top: -9vw;
+    margin-bottom: -9vw;
 } 
 .embed-containerRight iframe, .embed-containerRight object, .embed-containerRight embed { 
 position: absolute; 
@@ -416,7 +426,7 @@ height: 100%;
 }
 .sectieDivider3{
     float: left;
-    margin: 14vw auto 25vw auto;
+    margin: 10vw auto 25vw auto;
     margin-left: 30%;
     margin-right: 30%;
     width: 40%;
@@ -435,6 +445,7 @@ height: 100%;
 #aboutContainer{
     float: left;
     position: relative;
+    margin-bottom: 2vw;
 }
 #thatsMe{
     position: absolute;
