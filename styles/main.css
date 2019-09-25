@@ -391,6 +391,11 @@ height: 100%;
     margin-left: 3vw;
     width: 25%;
 }
+.categorieTekstDivHome{
+    float: left;
+    width: 25%;
+    margin-left: 3vw;
+}
 .categorieTekstDiv a{
     font-family: "Keep Calm Regular", "Bebas Neue", "Arial", sans-serif;
     font-size: 1vw;

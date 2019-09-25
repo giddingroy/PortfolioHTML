@@ -111,7 +111,11 @@ width: 95%;
 }
 .categorieTekstDiv{
     width: 85%;
-    margin-top: 7vw;
+    margin-top: 9vw;
+    margin-left: 7vw;
+}
+.categorieTekstDivHome{
+    width: 85%;
     margin-left: 7vw;
 }
 .categorieTekstDiv a{
