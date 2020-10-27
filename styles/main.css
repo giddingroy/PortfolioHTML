@@ -59,6 +59,13 @@ h4{
     text-align: center;
     line-height: 4vw;
 }
+h5{
+    font-family: "Paloseco", "Keep Calm Regular", "Bebas Neue", "Arial", sans-serif;
+    letter-spacing: 0.2vw;
+    color: white;
+    font-size: 1.2vw;
+    color: white;
+}
 p{
     font-size: 1vw;
     font-family: "Droid Serif", "Garamond", "Times New Roman", serif;
@@ -75,35 +82,125 @@ img{
 }
 
 
-
-
 /*Homepagina en begin van de site*/
 body{
     /*Grote Video achtergrond, dit wordt een foto op mobiel
     background-image: url(../img/homeAchtergrond.png);
     background-size: 100%;
     background-repeat: no-repeat;
-    background-position: top;*/
+    background-position: top;
+    background-color: gray;*/
+}
+
+#menuToggle{
+  display: block;
+  position: fixed;
+  margin-left: 94%;
+  margin-top: 3%;
+  background-color: #E27A4D;
+  padding: 1.2% 1% 1% 1%;
+  border-radius: 50%;
+    
+  z-index: 1;  
+  -webkit-user-select: none;
+  user-select: none;
+}
+#menuToggle a{}
+#menuToggle a h2:hover{color: #E27A4D;transition: color 0.5s ease;}
+#menuToggle input{
+  display: block;
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  top: 15px;
+  left: 10px;
+  
+  cursor: pointer;
+  
+  opacity: 0; /* hide this */
+  z-index: 2; /* and place it over the hamburger */
+  
+  -webkit-touch-callout: none;
+}
+#menuToggle span{
+  display: block;
+  width: 33px;
+  height: 4px;
+  margin-bottom: 5px;
+  position: relative;
+  
+  background: #FFFFFF;
+  border-radius: 3px;
+  
+  z-index: 1;
+  
+  transform-origin: 4px 0px;
+  transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+              background 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+              opacity 0.55s ease;
+}
+#menuToggle span:first-child{transform-origin: 0% 0%;}
+#menuToggle span:nth-last-child(2){transform-origin: 0% 100%;}
+#menuToggle input:checked ~ span{
+  opacity: 1;
+  transform: rotate(45deg) translate(-2px, -1px);
+  background: #FFFFFF;
+}
+#menuToggle input:checked ~ span:nth-last-child(3){
+  opacity: 0;
+  transform: rotate(0deg) scale(0.2, 0.2);
+}
+#menuToggle input:checked ~ span:nth-last-child(2){
+  transform: rotate(-45deg) translate(0, -1px);
+}
+
+#menu{
+  position: fixed;
+  width: 15%;
+  margin: -110px 0% 0% -15%;
+  padding: 3%;
+  padding-top: 125px;
+  padding-bottom: 300%;
+  background: #566984;
+    
+  list-style-type: none;
+  -webkit-font-smoothing: antialiased;
+  /* to stop flickering of text in safari */
+  transform-origin: 0% 0%;
+  transform: translate(100%, 0);
+  transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
+}
+#menu a{
+    display: block;
+    margin-left: 0px;
+}
+#menu li{  
+    margin: 1vw 0vw 4vw 0vw;
+}
+#menuToggle input:checked ~ ul{
+  transform: none;
 }
 
 #Home{
     position: relative;
     height: 55vw;
 }
-
 #videoBackground{
     position: absolute;
     max-width: 100%;
     pointer-events: none;
 }
+#videoBackgroundMobile{
+    display: none;
+}
 
-/*Hire Me Button*/
+/*Contact Me Button*/
 #contactButton{
     z-index:300000;
     position: absolute;
     float: left;
     
-    margin: 3% 0% 0% 3%;
+    margin: 3.5% 0% 0% 3.5%;
     width: 9.5%;
     border: solid 0.2vw;
     border-color: white;
@@ -119,8 +216,8 @@ body{
 
 /* De grote tekst op de header*/
 .backgroundHeader{
-    z-index:300000;
     position: absolute;
+    z-index:1;
     float: left;
     text-align: right;
     margin-top: 5.5%;
@@ -148,7 +245,7 @@ body{
     float: left;
     text-align: right;
     margin-top: 20%;
-    margin-left: 19%;
+    margin-left: 15%;
 }
 .backgroundHeaderPhotographySerieBlus{
     z-index:300000;
@@ -159,61 +256,28 @@ body{
     margin-left: 40%;
 }
 
-/*Divider tussen de header en de navigatie*/
-.homeVerticalDivider{
-    z-index:300000;
-    position: absolute;
-    float: left;
-    
-    margin-left: 84%;
-    margin-top: 4%;
-    width: 0.1vw;
-    height: 39vw;
-    background-color: white;
-}
 /*Navigate Balk*/
 #navSelectorHome{
     z-index:300000;
     position: absolute;
     
-    width: 38%;
-    margin-left: -4.5vw;
-    margin-top: -3.5vw;
+    width: 22%;
+    margin-top: -3.8vw;
 }
 #navSelectorAnimation{
     z-index:300000;
     position: absolute;
     
-    width: 76%;
-    margin-left: -8.9vw;
-    margin-top: -3.5vw;
+    width: 41%;
+    margin-top: -3.8vw;
 }
 #navSelectorPhotography{
     z-index:300000;
     position: absolute;
     
-    width: 98%;
-    margin-left: -11.3vw;
-    margin-top: -3.5vw;
+    width: 53%;
+    margin-top: -3.9vw;
 }
-
-#nav {
-    z-index:300000;
-    position: absolute;
-    
-    box-sizing: border-box;
-    text-align: right;
-    margin-left: 87%;
-    margin-top: 4%;
-}
-#nav li{
-    display: block;
-    margin: 2vw 0vw 3.6vw 0vw;
-}
-#nav li h2:hover{
-    color: #E27A4D;
-}
-
 .navInstaLogo{
     z-index: 30000;
     position: absolute;
@@ -289,7 +353,6 @@ body{
     margin-left: 12vw;
     color: #566984;
 }
-
 
 
 /*Categorie Sectie*/
@@ -415,8 +478,6 @@ height: 100%;
     margin-bottom: 1.5vw;
 }
 
-
-
 .sectieDivider{
     margin: 14vw auto 14vw auto;
     width: 40%;
@@ -521,7 +582,6 @@ height: 100%;
 .brand:hover{
     border: solid 0.2vw rgba(0, 0, 0, 0);
 }
-
 
 
 #contactContainer{
