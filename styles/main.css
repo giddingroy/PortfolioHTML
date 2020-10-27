@@ -382,7 +382,7 @@ body{
 /*Categorie Sectie*/
 .mediaCategorieContainer{
     margin-top: 13vw;
-    margin-bottom: 16vw;
+    margin-bottom: 10vw;
     float: left;
 }
 .posterImgTextVideo h1{
@@ -516,7 +516,7 @@ height: 100%;
 }
 .sectieDivider3{
     float: left;
-    margin: 10vw auto 25vw auto;
+    margin: 5vw auto 15vw auto;
     margin-left: 30%;
     margin-right: 30%;
     width: 40%;
@@ -587,7 +587,6 @@ height: 100%;
 }
 #brandsWorkedWith{
     margin-left: 14vw;
-    margin-top: 17vw;
     margin-bottom: -2vw;
     text-align: left;
     color: #E27A4D;

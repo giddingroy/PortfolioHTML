@@ -217,13 +217,13 @@ p{
 h1{
     font-size: 9vw;
     letter-spacing: 3px;
-    z-index: 50000;
+    z-index: 0;
 }
 h2{
-        font-size: 2vw;
+        font-size: 3vw;
   }
 h5{
-    font-size: 2vw;
+    font-size: 4vw;
     color: #E27A4D;
 }
     
@@ -231,7 +231,7 @@ h5{
     margin-bottom: 675px;
 }
 #contactButton{
-margin: 4% 0% 0% 4%;
+margin: 8.5% 0% 0% 8%;
 width: 20vw;
 border: solid 0.3vw white;
 transition: 0.5s;
@@ -242,16 +242,22 @@ font-size: 1.5vw;
 }
 
 #menuToggle{
-    margin-top: 4%;
-    margin-left: 85%;
-    padding: 2.4% 1.5% 1.5% 1.5%;
+    margin-top: 6%;
+    margin-left: 81%;
+    padding: 3.9% 3% 3% 3%;
+}
+#menuToggle input{
+  width: 40px;
+  height: 40px;
+  top: 13px;
+  left: 7px;
 }
 #menu{
-  width: 18%;
-  margin: -110px 0% 0% -10%;
+  width: 38%;
+  margin: -110px 0% 0% -27%;
 }
 #menu li{  
-    margin: 1vw 0vw 7vw 0vw;
+    margin: 1vw 0vw 10vw 0vw;
 }
 
 .backgroundHeader{
@@ -261,6 +267,7 @@ font-size: 1.5vw;
 .backgroundHeaderVideo{
     margin-top: 24%;
     margin-left: 35%;
+    z-index: 0;
 }
 .backgroundHeaderAnimation{
     margin-left: 20.5%;
@@ -272,15 +279,15 @@ font-size: 1.5vw;
 }
 
 .navInstaLogo{
-    background-size: 4vw 4vw;
-    width: 4vw;
-    height: 4vw;
+    background-size: 7vw 7vw;
+    width: 7vw;
+    height: 7vw;
 }
 .navLinkedLogo{
-    background-size: 4vw 4vw;
-    width: 4vw;
-    height: 4vw;
-    margin-top: 10vw;
+    background-size: 7vw 7vw;
+    width: 7vw;
+    height: 7vw;
+    margin-top: 16.5vw;
 }
     
 .arrow{
@@ -315,14 +322,41 @@ font-size: 1.5vw;
     z-index: -1;
 }
  
+.mediaCategorieContainer{
+    margin-top: 20vw;
+    margin-bottom: 25vw;
+    float: left;
+}
+.sectieDivider{
+    margin: 35vw auto 35vw auto;
+    width: 70%;
+    height: 0.2vw;
+}
+.sectieDivider3{
+    margin: 14vw auto 40vw auto;
+    margin-left: 15%;
+    margin-right: 15%;
+    width: 70%;
+}
+
+.brand{
+    width: 10vw;
+    height: 10vw;
+    margin: 6vw 3vw 0vw 3vw;
+}
+    
 .goToTopButton{
     display: inline-block;
-    margin: 20vw 0vw 0vw 0vw;
+    margin: 20vw 0vw 20vw 0vw;
     width: 25%;
     border: solid 0.2vw #E27A4D;
     transition: 0.5s;
 }
 .categorieTekstDiv a{
 font-size: 2vw;
+}
+    
+.footerInfo{
+    font-size: 2vw;
 }
 }
