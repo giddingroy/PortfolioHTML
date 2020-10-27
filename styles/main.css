@@ -185,13 +185,25 @@ body{
     position: relative;
     height: 55vw;
 }
+#Home2{
+    position: relative;
+    height: 55vw;
+}
+#videoBackgroundIndex{
+    position: absolute;
+    max-width: 100%;
+    pointer-events: none;
+    z-index: -1;
+}
 #videoBackground{
     position: absolute;
     max-width: 100%;
     pointer-events: none;
+    z-index: -1;
 }
 #videoBackgroundMobile{
     display: none;
+    z-index: -1;
 }
 
 /*Contact Me Button*/
@@ -217,38 +229,38 @@ body{
 /* De grote tekst op de header*/
 .backgroundHeader{
     position: absolute;
-    z-index:1;
+    z-index: 0;
     float: left;
     text-align: right;
     margin-top: 5.5%;
     margin-left: 30%;
 }
 .backgroundHeaderVideo{
-    z-index:300000;
+    z-index: 0;
     position: absolute;
     float: left;
     text-align: right;
     margin-top: 20%;
-    margin-left: 38%;
+    margin-left: 40%;
 }
 .backgroundHeaderAnimation{
-    z-index:300000;
+    z-index: 0;
     position: absolute;
     float: left;
     text-align: right;
     margin-top: 20%;
-    margin-left: 27%;
+    margin-left: 29%;
 }
 .backgroundHeaderPhotography{
-    z-index:300000;
+    z-index: 0;
     position: absolute;
     float: left;
     text-align: right;
     margin-top: 20%;
-    margin-left: 15%;
+    margin-left: 24%;
 }
 .backgroundHeaderPhotographySerieBlus{
-    z-index:300000;
+    z-index: 0;
     position: absolute;
     float: left;
     text-align: right;
@@ -322,10 +334,22 @@ body{
     background-image: url("../img/arrow.png");
     background-repeat: no-repeat;
     background-size: contain;
+      animation: move 3s 2.5s infinite;
 }
-.move {
-  animation: move 3s 2.5s infinite;
+.arrow2{
+    z-index: 30000;
+    position: absolute;
+    width: 2.5vw;
+    height: 5vw;
+    
+    margin-left: 7.2%;
+    margin-top: 41%;
+    background-image: url("../img/arrow.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+      animation: move 3s 2.5s infinite;
 }
+
 @keyframes move {
   0%, 100% {
     transform: translateY(0);
