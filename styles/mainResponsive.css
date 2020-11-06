@@ -139,6 +139,9 @@ width: 95%;
     width: 85%;
     margin-left: 7vw;
 }
+.categorieTekstDivHome a{
+    font-size: 2.5vw;
+}
 .categorieTekstDiv a{
     font-size: 1.5vw;
 }
@@ -353,9 +356,11 @@ font-size: 1.5vw;
     transition: 0.5s;
 }
 .categorieTekstDiv a{
-font-size: 2vw;
+font-size: 3vw;
 }
-    
+.categorieTekstDivHome a{
+    font-size: 2.5vw;
+}
 .footerInfo{
     font-size: 2vw;
 }

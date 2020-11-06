@@ -382,7 +382,7 @@ body{
 /*Categorie Sectie*/
 .mediaCategorieContainer{
     margin-top: 13vw;
-    margin-bottom: 10vw;
+    margin-bottom: 7vw;
     float: left;
 }
 .posterImgTextVideo h1{
@@ -482,6 +482,11 @@ height: 100%;
     float: left;
     width: 25%;
     margin-left: 3vw;
+}
+.categorieTekstDivHome a{
+    font-family: "Droid Serif", "Garamond", "Times New Roman", serif;
+    font-size: 1vw;
+    color: #566984;
 }
 .categorieTekstDiv a{
     font-family: "Keep Calm Regular", "Bebas Neue", "Arial", sans-serif;
